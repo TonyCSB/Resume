@@ -1,0 +1,61 @@
+\documentclass{resume}
+
+\newif\ifus
+\newif\ifcn
+
+\newcommand{\us}[1]{\ifus#1\fi}
+\newcommand{\cn}[1]{\ifcn#1\fi}
+
+\cntrue
+% \ustrue
+
+\begin{document}
+    \us{\name{Tony Chen}}
+    \cn{\name{Sibei Chen}}
+
+    \basicInfo{
+        \email{tonychensibei@gmail.com} $\cdot$ 
+        \cn{\phone{(+86) 138-1757-6706}}
+        \us{\phone{(+1) 240-825-8413}} $\cdot$ 
+        \linkedin{Tony Chen}{https://www.linkedin.com/in/tony-chen-922b48171} $\cdot$ 
+        \github{TonyCSB}{https://github.com/TonyCSB/}
+    }
+
+    \section{\faGraduationCap\ Education}
+    \datedsubsection{University of Maryland}{2018 -- 2021}
+    \role{Bachelor of Science}{}
+    Major in Computer Science. Minor in General Business.\\
+    Expected to Graduate: Fall 2021\\
+    Cumulative GPA: 3.90
+
+    \section{\faUsers\ Experience}
+    \datedsubsection{Morgan Stanley}{Apr. 2020 -- Now}
+    \role{Intern}{Board of Directors Office}
+    Participated in the 51\% equity transfer of Morgan Stanley Huaxin Securities Co., Ltd. in Shanghai. 
+    Took leads in the modification of its policies and rules, such as \textit{Corporate Governance Policy}, 
+    in compliance with those of Morgan Stanley's. Have an extensive knowledge on securities regulation set 
+    forth by China Securities Regulatory Commission. 
+    \datedsubsection{University of Maryland}{Oct. 2019 -- Now}
+    \role{Student Driver}{Shuttle UM}
+    I am a student shuttle driver at University shuttle team. I acquired Commercial Driver's License through rigorous training in my spare time. 
+    This is a demonstration of my punctuality and public service ability.
+    \datedsubsection{University of Maryland}{Sep. 2018 -- Dec. 2019}
+    \role{Research Assistant}{Department of Human Development and Quantitative Methodology}
+    Data entry, literature review and basic data compiling for cognitive diagnosis modeling.
+
+    \section{\faCogs\ Skills}
+    \begin{myitemize}
+        \item Programming Languages: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL
+        \item Platform: Windows 10, Linux
+        \item Others: Bash, Javascript, HTML
+    \end{myitemize}
+
+    \clearpage
+
+    \section{\faHeartO\ Honors \& Certificates}
+    \begin{myitemize}
+        \item Dean's List and Academic Honor in all semesters
+        \item Office of Multi-Ethnic Student Education Academic Excellence Awards
+        \item Google Cloud Platform Essential Certificate
+    \end{myitemize}
+\end{document}
