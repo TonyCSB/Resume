@@ -1,4 +1,10 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
 \documentclass{resume}
+
+\usepackage{zh_CN-Adobefonts_external}
 
 \newif\ifus
 \newif\ifcn
@@ -6,21 +12,25 @@
 \newcommand{\us}[1]{\ifus#1\fi}
 \newcommand{\cn}[1]{\ifcn#1\fi}
 
-\newif\ifen
-\newif\ifzh
-
 \cntrue
 % \ustrue
 
+\newif\ifen
+\newif\ifzh
+\newif\ifboth
+
 \newcommand{\en}[1]{\ifen#1\fi}
 \newcommand{\zh}[1]{\ifzh#1\fi}
+\newcommand{\both}[1]{\ifboth#1\fi}
 
 \entrue
 \zhtrue
+\ifzh\ifen\bothtrue\fi\fi
 
 \begin{document}
-    \us{\name{Tony Chen}}
-    \cn{\name{Sibei Chen}}
+    \en{\us{\name{Tony Chen}}
+    \cn{\name{Sibei Chen}}}
+    \zh{\name{陈思贝}}
 
     \basicInfo{
         \email{tonychensibei@gmail.com} $\cdot$ 
@@ -30,41 +40,55 @@
         \github{TonyCSB}{https://github.com/TonyCSB/}
     }
 
-    \section{\faGraduationCap\ Education}
-    \datedsubsection{University of Maryland}{2018 -- 2021}
-    \role{Bachelor of Science}{}
-    Major in Computer Science. Minor in General Business.\\
+    \section{\faGraduationCap\ \en{Education}\both{ }\zh{教育经历}}
+    \en{\datedsubsection{University of Maryland}{2018 -- 2021}}
+    \zh{\subsection{美国马里兰大学}}
+    \en{\role{Bachelor of Science}{}}
+    \zh{\role{科学学士学位}{}}
+    \en{Major in Computer Science. Minor in General Business.\\
     Expected to Graduate: Fall 2021\\
-    Cumulative GPA: 3.90
+    Cumulative GPA: 3.90}\both{\newline\newline}
+    \zh{计算机科学专业，辅修商科。\\
+    预计毕业时间：2021秋季\\
+    总计GPA：3.90}
 
-    \section{\faUsers\ Experience}
-    \datedsubsection{Morgan Stanley}{Apr. 2020 -- Now}
-    \role{Intern}{Board of Directors Office}
-    Participated in the 51\% equity transfer of Morgan Stanley Huaxin Securities Co., Ltd. in Shanghai. 
+    \section{\faUsers\ \en{Experience}\both{ }\zh{工作与实习经历}}
+    \en{\datedsubsection{Morgan Stanley}{Apr. 2020 -- Now}}
+    \zh{\subsection{摩根士丹利}}
+    \en{\role{Intern}{Board of Directors Office}}
+    \zh{\role{实习生}{董事会办公室}}
+    \en{Participated in the 51\% equity transfer of Morgan Stanley Huaxin Securities Co., Ltd. in Shanghai. 
     Took leads in the modification of its policies and rules, such as \textit{Corporate Governance Policy}, 
     in compliance with those of Morgan Stanley's. Have an extensive knowledge on securities regulation set 
-    forth by China Securities Regulatory Commission. 
-    \datedsubsection{University of Maryland}{Oct. 2019 -- Now}
-    \role{Student Driver}{Shuttle UM}
-    I am a student shuttle driver at University shuttle team. I acquired Commercial Driver's License through rigorous training in my spare time. 
-    This is a demonstration of my punctuality and public service ability.
-    \datedsubsection{University of Maryland}{Sep. 2018 -- Dec. 2019}
-    \role{Research Assistant}{Department of Human Development and Quantitative Methodology}
-    Data entry, literature review and basic data compiling for cognitive diagnosis modeling.
+    forth by China Securities Regulatory Commission. }\both{\newline\newline}
+    \zh{参与了摩根士丹利对摩根士丹利华鑫证券有限责任公司的51\%股权的收购。参与起草修改了摩根华鑫的《公司治理制度》等一系列的规章制度。
+    对公司的治理以及中国证券监督管理委员会的对行业监管监督工作有着较为深刻的了解}
+    \en{\datedsubsection{University of Maryland}{Oct. 2019 -- Now}}
+    \zh{\subsection{美国马里兰大学}}
+    \en{\role{Student Driver}{Shuttle UM}}
+    \zh{\role{学生司机}{}}
+    \en{I am a student shuttle driver at University shuttle team. I acquired Commercial Driver's License through rigorous training in my spare time. 
+    This is a demonstration of my punctuality and public service ability.}\both{\newline\newline}
+    \zh{我是马里兰大学校车的一名司机，经过严格的训练，我在课余时间考到了商用B级驾照。这份工作体现了我的守时的个性与为公众服务的理想。}
+    \en{\datedsubsection{University of Maryland}{Sep. 2018 -- Dec. 2019}}
+    \zh{\subsection{美国马里兰大学}}
+    \en{\role{Research Assistant}{Department of Human Development and Quantitative Methodology}}
+    \zh{\role{研究助理}{}}
+    \en{Data entry, literature review and basic data compiling for cognitive diagnosis modeling.}\both{\newline\newline}
+    \zh{为认知分析建模进行数据输入，文学评估与数据分析。}
 
-    \section{\faCogs\ Skills}
+    \section{\faCogs\ \en{Skills}\both{ }\zh{技能}}
     \begin{myitemize}
-        \item Programming Languages: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL
-        \item Platform: Windows 10, Linux
-        \item Others: Bash, Javascript, HTML
+        \item \en{Programming Languages}\both{ }\zh{编程语言}: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL
+        \item \en{Platform}\both{ }\zh{平台}: Windows 10, Linux
+        \item \en{Others}\both{ }\zh{其他}: Bash, Javascript, HTML
     \end{myitemize}
 
-    \clearpage
-
-    \section{\faHeartO\ Honors \& Certificates}
+    \section{\faHeartO\ \en{Honors \& Certificates}\both{ }\zh{荣誉与证书}}
     \begin{myitemize}
         \item Dean's List and Academic Honor in all semesters
         \item Office of Multi-Ethnic Student Education Academic Excellence Awards
         \item Google Cloud Platform Essential Certificate
     \end{myitemize}
 \end{document}
+

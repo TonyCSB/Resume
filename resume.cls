@@ -4,6 +4,7 @@
 
 \setlength{\parindent}{0pt}
 
+% \RequirePackage{CJK}
 \RequirePackage{titlesec}
 \RequirePackage{hyperref}
 \hypersetup{hidelinks}
