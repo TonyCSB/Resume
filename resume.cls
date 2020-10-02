@@ -10,6 +10,7 @@
 \RequirePackage{url}
 \urlstyle{tt}
 \RequirePackage{fontawesome}
+\RequirePackage{changepage}
 
 \usepackage{mathptmx}
 
@@ -21,6 +22,9 @@
 	bottom=1in,
 	nohead
 ]{geometry}
+
+%\titlespacing*{\section} {0pt}{2.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+\titlespacing*{\subsection} {0pt}{2.25ex plus 1ex minus .2ex}{0.5ex plus .2ex}
 
 \titleformat{\section}
     {\Large\scshape\raggedright\bfseries}
@@ -59,7 +63,8 @@
 
 \newcommand{\role}[2]{
   {\par \textit{#1} ~ #2 \par}
-  \vspace{0.85ex}
 }
 
+\newenvironment{jobitemize}{\vspace{-1.25\topsep}\begin{itemize}\setlength\itemsep{-0.25em}}{\end{itemize}}
 \newenvironment{myitemize}{\begin{itemize}\setlength\itemsep{0em}}{\end{itemize}}
+\newenvironment{ind}{\begin{adjustwidth}{4ex}{}}{\end{adjustwidth}}
