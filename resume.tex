@@ -1,0 +1,214 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % % !TEX TS-program = xelatex
+% % % % !TEX encoding = UTF-8 Unicode
+% % % % !Mode:: "TeX:UTF-8"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{resume}
+
+% % % \usepackage{zh_CN-Adobefonts_external}
+
+\newif\ifus
+\newif\ifcn
+
+\newcommand{\us}[1]{\ifus#1\fi}
+\newcommand{\cn}[1]{\ifcn#1\fi}
+
+% \cntrue
+\ustrue
+
+\newif\ifen
+\newif\ifzh
+\newif\ifboth
+
+\newcommand{\en}[1]{\ifen#1\fi}
+\newcommand{\zh}[1]{\ifzh#1\fi}
+\newcommand{\both}[1]{\ifboth#1\fi}
+
+\entrue
+% \zhtrue
+\ifzh\ifen\bothtrue\fi\fi
+
+\begin{document}
+    \en{\us{\name{Tony Chen}}
+    \cn{\name{Sibei Chen}}}
+    \zh{\name{陈思贝}}
+
+    \basicInfo{
+        \email{resume@tonychen.page} $\cdot$ 
+        \cn{\phone{(+86) 138-1757-6706}}
+        \us{\phone{(+1) 240-726-8347}} $\cdot$ 
+        \linkedin{Tony Chen}{https://linkedin.tonychen.page/} $\cdot$ 
+        \github{TonyCSB}{https://github.com/TonyCSB/}
+    }
+
+    \begin{center}
+        \textbf{For updated version of my resume, visit: \href{https://resume.tonychen.page}{https://resume.tonychen.page}.}
+    \end{center}
+    
+
+    % \vspace{.5cm}
+    % \en{\textbf{Available after middle Oct. 2020, preferably in the Software Engineering Department.}}
+    % \both{\newline}
+    % \zh{2020年10月中旬后可以参加实习，希望能进软件工程类的部门。}
+
+    % \section{\faAnchor\ \en{Career Objective}}
+    % \en{Employment as a Software Developer, using my programming and communication skills to code in a team environment.}
+
+    \section{\faGraduationCap\ \en{Education}\both{ }\zh{教育经历}}
+    \en{\datedsubsection{University of Maryland}{Dec. 2021}}
+    \zh{\datedsubsection{美国马里兰大学}{2018年8月 -- 2021年12月}}
+    \begin{ind}
+        \en{\role{Bachelor of Science}{}}
+        \zh{\role{科学学士学位}{}}
+        \vspace{0.5ex}
+        \en{Major in Computer Science. Minor in General Business.\\
+        Cumulative GPA: 3.90}\both{\newline}
+        \zh{计算机科学专业，辅修商科。\\
+        预计毕业时间：2021年12月\\
+        总计GPA：3.90}
+    \end{ind}
+
+    \en{\datedsubsection{Shanghai Jiao Tong University}{Feb. 2021 - Jun. 2021}}
+    \zh{\datedsubsection{上海交通大学}{2021年2月 -- 2021年6月}}
+    \begin{ind}
+        \en{\role{Exchange Program}}
+        \zh{\role{交换生}}
+        \vspace{0.5ex}
+        \en{School of Electronic, Information and Electrical Engineering}
+        \zh{电子信息与电气工程学院}
+    \end{ind}
+
+    \section{\faUsers\ \en{Experience}\both{ }\zh{工作与实习经历}}
+
+    \en{\datedsubsection{University of Maryland}{Aug. 2021 -- Dec. 2021}}
+    \zh{\datedsubsection{马里兰大学}{2021年8月 -- 2021年12月}}
+    \begin{ind}
+        \en{\role{Teaching Assistant}{CMSC 436 - Programming Handheld Systems}}
+        \zh{\role{助教}{CMSC 436 - 手持设备编程}}
+    \end{ind}
+    \en{
+        \begin{jobitemize}
+            \item Responses to students' questions on forum
+            \item Weekly office hours
+            \item Grades projects and tests
+        \end{jobitemize}
+    }
+    \zh{
+        \begin{jobitemize}
+            \item 在论坛为学生解答问题。
+            \item 每周Office Hour。
+            \item 为项目和考试打分。
+        \end{jobitemize}
+    }
+
+    \en{\datedsubsection{ACM Research (Shanghai), Inc.}{Feb. 2021 -- Mar. 2021}}
+    \zh{\datedsubsection{盛美半导体设备（上海）股份有限公司}{2021年2月 -- 2021年3月}}
+    \begin{ind}
+        \en{\role{Intern}{Mechanical Engineering Department}}
+        \zh{\role{机械部门实习生}}
+    \end{ind}
+    \en{
+        \begin{jobitemize}
+            \item Used Solidworks to build 3-d parts.
+            \item Created an automatic archiving system to track and archive solidwork files of standard parts.
+        \end{jobitemize}
+    }
+    \zh{
+        \begin{jobitemize}
+            \item 用Solidworks制作3d硬件模型。
+            \item 创建了自动归档系统追踪归档标准件的Solidworks图纸。
+        \end{jobitemize}
+    }
+
+    \en{\datedsubsection{SAIC Motor Passenger Vehicle Company}{Jul. 2020 -- Oct. 2020}}
+    \zh{\datedsubsection{上汽集团}{2020年7月 -- 2020年10月}}
+    \begin{ind}
+        \en{\role{Intern}{Software Development Division}}
+        \zh{\role{软件实习生}}
+    \end{ind}
+    \en{
+        \begin{jobitemize}
+            \item Developes embedded system and computer vision system on passenger vehicles.
+            \item Works in a team consists of 5 members.
+            \item Implements software with AUTOSAR system.
+        \end{jobitemize}
+    }
+    \zh{车载嵌入式系统研发，熟悉AUTOSAR系统。}
+
+
+    \en{\datedsubsection{Morgan Stanley Huaxin Securities Co., Ltd.}{Apr. 2020 -- Jul. 2020}}
+    \zh{\datedsubsection{摩根士丹利}{2020年4月 -- 2020年7月}}
+    \begin{ind}
+        \en{\role{Intern}{Board of Directors Office}}
+        \zh{\role{实习生}{董事会办公室}}
+    \end{ind}
+    \en{
+        \begin{jobitemize}
+            \item Prepared for Company's majority shareholder equity transfer.
+            \item Modified its \textit{Corporate Governance Policy} and other internal guidelines.
+            \item Provided detailed information and presentations for regulatory administrations.
+            \item Comprehends securities regulation set forth by CSRC.
+        \end{jobitemize}
+    }
+    \zh{参与了摩根士丹利对摩根士丹利华鑫证券有限责任公司的51\%股权的收购。参与起草修改了摩根华鑫的《公司治理制度》等一系列的规章制度。
+    对公司的治理以及中国证券监督管理委员会的对行业监管监督工作有着较为深刻的了解}
+
+    \en{\datedsubsection{University of Maryland}{Oct. 2019 -- Jul. 2020}}
+    \zh{\datedsubsection{美国马里兰大学}{2019年10月 -- 2020年7月}}
+    \begin{ind}
+        \en{\role{Student Driver}{Shuttle UM}}
+        \zh{\role{学生司机}{}}
+    \end{ind}
+    \en{
+        \begin{jobitemize}
+            \item Drove shuttle buses and transit vans at the University.
+            \item Familiared with mechanical structures of automotives.
+            \item Acquired the Commercial Drivers' License through rigorous training.
+        \end{jobitemize}
+    }
+    \zh{我是马里兰大学校车的一名司机，经过严格的训练，我在课余时间考到了商用B级驾照。这份工作体现了我的守时的个性与为公众服务的理想。}
+
+    \en{\datedsubsection{University of Maryland}{Sep. 2018 -- Dec. 2019}}
+    \zh{\datedsubsection{美国马里兰大学}{2018年9月 -- 2019年12月}}
+    \begin{ind}
+        \en{\role{Research Assistant}{Department of Human Development and Quantitative Methodology}}
+        \zh{\role{研究助理}{}}
+    \end{ind}
+    \en{
+        \begin{jobitemize}
+            \item Data entry, literature review and basic data compiling for cognitive diagnosis modeling.
+            \item Provides visual interpretation and analysis presentations.
+        \end{jobitemize}
+    }
+    \zh{为认知分析建模进行数据输入，文学评估与数据分析。}
+
+    \en{\datedsubsection{Rural Teacher Training}{Summer 2015 -- Summer 2018}}
+    \begin{ind}
+        \en{\role{Volunteer}{Event Organizer}}
+    \end{ind}
+    \en{
+        \begin{jobitemize}
+            \item Organized multiple entertainment events with over 500 audiences.
+            \item Made arrangements with vendors and sponsors.
+            \item Hosted in one of these events.
+        \end{jobitemize}
+    }
+
+    \section{\faCogs\ \en{Skills}\both{ }\zh{技能}}
+    \begin{myitemize}
+        \item \en{Languages}\both{ }\zh{语言}: \en{English - Proficient, Chinese - Native}
+        \item \en{Programming Languages}\both{ }\zh{编程语言}: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL
+        \item \en{Platform}\both{ }\zh{平台}: Windows 10, Linux
+        \item \en{Others}\both{ }\zh{其他}: Bash, Javascript, HTML \& CSS
+        \item \en{Class B Commercial Drivers' License}
+    \end{myitemize}
+
+    \section{\faCertificate\ \en{Honors \& Certificates}\both{ }\zh{荣誉与证书}}
+    \begin{myitemize}
+        \item Dean's List and Academic Honor in all semesters
+        \item Office of Multi-Ethnic Student Education Academic Excellence Awards
+        \item Google Cloud Platform Essential Certificate
+    \end{myitemize}
+\end{document}
+
