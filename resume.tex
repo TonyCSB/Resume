@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % % % !TEX TS-program = xelatex
-% % % % !TEX encoding = UTF-8 Unicode
-% % % % !Mode:: "TeX:UTF-8"
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass{resume}
@@ -25,8 +25,8 @@
 \newcommand{\zh}[1]{\ifzh#1\fi}
 \newcommand{\both}[1]{\ifboth#1\fi}
 
-\entrue
-% \zhtrue
+% \entrue
+\zhtrue
 \ifzh\ifen\bothtrue\fi\fi
 
 \begin{document}
@@ -82,14 +82,23 @@
     \section{\faUsers\ \en{Experience}\both{ }\zh{工作与实习经历}}
 
     \en{\datedsubsection{University of Maryland}{Aug. 2021 -- Dec. 2021}}
+    \zh{\datedsubsection{马里兰大学}{2021年8月 -- 2021年12月}}
     \begin{ind}
         \en{\role{Teaching Assistant}{CMSC 436 - Programming Handheld Systems}}
+        \zh{\role{助教}{CMSC 436 - 手持设备编程}}
     \end{ind}
     \en{
         \begin{jobitemize}
             \item Responses to students' questions on forum
             \item Weekly office hours
             \item Grades projects and tests
+        \end{jobitemize}
+    }
+    \zh{
+        \begin{jobitemize}
+            \item 在论坛为学生解答问题。
+            \item 每周Office Hour。
+            \item 为项目和考试打分。
         \end{jobitemize}
     }
 
