@@ -1,11 +1,9 @@
-\documentclass{resume}\newif\ifus
+\documentclass{resume}
+\newif\ifus
 \newif\ifcn
 
 \newcommand{\us}[1]{\ifus#1\fi}
 \newcommand{\cn}[1]{\ifcn#1\fi}
-
-% \cntrue
-\ustrue
 
 \newif\ifen
 \newif\ifzh
@@ -15,9 +13,9 @@
 \newcommand{\zh}[1]{\ifzh#1\fi}
 \newcommand{\both}[1]{\ifboth#1\fi}
 
-\entrue
-% \zhtrue
 \ifzh\ifen\bothtrue\fi\fi
+\ustrue
+\entrue
 \begin{document}
     \en{\us{\name{Tony Chen}}
     \cn{\name{Sibei Chen}}}
