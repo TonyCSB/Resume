@@ -30,8 +30,8 @@ def readFile(filename):
 
 
 def saveFile(content, filename):
-    with open(filename, mode="w") as f:
-        f.write(content)
+    with open(filename, mode="wb") as f:
+        f.write(content.encode("utf-8"))
 
 
 def generateContent(region, language):
@@ -50,11 +50,15 @@ def generateContent(region, language):
     content += "\\{0}true\n".format(region.name)
     content += "\\{0}true\n".format(language.name)
 
-    content += readFile("content.tex")
+    content += readFile("content")
 
     filename = "resume_{0}{1}.tex".format(language.name, region.name.upper())
     saveFile(content, filename)
-    os.system("pdflatex {0}".format(filename))
+
+    if language == Language.zh:
+        os.system("xelatex {0}".format(filename))
+    else:
+        os.system("pdflatex {0}".format(filename))
 
 
 if __name__ == "__main__":

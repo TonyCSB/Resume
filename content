@@ -1,7 +1,7 @@
 \begin{document}
     \en{\us{\name{Tony Chen}}
     \cn{\name{Sibei Chen}}}
-    \zh{\name{é™ˆæ€è´}}
+    \zh{\name{³ÂË¼±´}}
 
     \basicInfo{
         \email{resume@tonychen.page} $\cdot$ 
@@ -19,42 +19,42 @@
     % \vspace{.5cm}
     % \en{\textbf{Available after middle Oct. 2020, preferably in the Software Engineering Department.}}
     % \both{\newline}
-    % \zh{2020å¹´10æœˆä¸­æ—¬åå¯ä»¥å‚åŠ å®ä¹ ï¼Œå¸Œæœ›èƒ½è¿›è½¯ä»¶å·¥ç¨‹ç±»çš„éƒ¨é—¨ã€‚}
+    % \zh{2020Äê10ÔÂÖĞÑ®ºó¿ÉÒÔ²Î¼ÓÊµÏ°£¬Ï£ÍûÄÜ½øÈí¼ş¹¤³ÌÀàµÄ²¿ÃÅ¡£}
 
     % \section{\faAnchor\ \en{Career Objective}}
     % \en{Employment as a Software Developer, using my programming and communication skills to code in a team environment.}
 
-    \section{\faGraduationCap\ \en{Education}\both{ }\zh{æ•™è‚²ç»å†}}
+    \section{\faGraduationCap\ \en{Education}\both{ }\zh{½ÌÓı¾­Àú}}
     \en{\datedsubsection{University of Maryland}{Dec. 2021}}
-    \zh{\datedsubsection{ç¾å›½é©¬é‡Œå…°å¤§å­¦}{2018å¹´8æœˆ -- 2021å¹´12æœˆ}}
+    \zh{\datedsubsection{ÃÀ¹úÂíÀïÀ¼´óÑ§}{2018Äê8ÔÂ -- 2021Äê12ÔÂ}}
     \begin{ind}
         \en{\role{Bachelor of Science}{}}
-        \zh{\role{ç§‘å­¦å­¦å£«å­¦ä½}{}}
+        \zh{\role{¿ÆÑ§Ñ§Ê¿Ñ§Î»}{}}
         \vspace{0.5ex}
         \en{Major in Computer Science. Minor in General Business.\\
         Cumulative GPA: 3.90}\both{\newline}
-        \zh{è®¡ç®—æœºç§‘å­¦ä¸“ä¸šï¼Œè¾…ä¿®å•†ç§‘ã€‚\\
-        é¢„è®¡æ¯•ä¸šæ—¶é—´ï¼š2021å¹´12æœˆ\\
-        æ€»è®¡GPAï¼š3.90}
+        \zh{¼ÆËã»ú¿ÆÑ§×¨Òµ£¬¸¨ĞŞÉÌ¿Æ¡£\\
+        Ô¤¼Æ±ÏÒµÊ±¼ä£º2021Äê12ÔÂ\\
+        ×Ü¼ÆGPA£º3.90}
     \end{ind}
 
     \en{\datedsubsection{Shanghai Jiao Tong University}{Feb. 2021 - Jun. 2021}}
-    \zh{\datedsubsection{ä¸Šæµ·äº¤é€šå¤§å­¦}{2021å¹´2æœˆ -- 2021å¹´6æœˆ}}
+    \zh{\datedsubsection{ÉÏº£½»Í¨´óÑ§}{2021Äê2ÔÂ -- 2021Äê6ÔÂ}}
     \begin{ind}
         \en{\role{Exchange Program}}
-        \zh{\role{äº¤æ¢ç”Ÿ}}
+        \zh{\role{½»»»Éú}}
         \vspace{0.5ex}
         \en{School of Electronic, Information and Electrical Engineering}
-        \zh{ç”µå­ä¿¡æ¯ä¸ç”µæ°”å·¥ç¨‹å­¦é™¢}
+        \zh{µç×ÓĞÅÏ¢ÓëµçÆø¹¤³ÌÑ§Ôº}
     \end{ind}
 
-    \section{\faUsers\ \en{Experience}\both{ }\zh{å·¥ä½œä¸å®ä¹ ç»å†}}
+    \section{\faUsers\ \en{Experience}\both{ }\zh{¹¤×÷ÓëÊµÏ°¾­Àú}}
 
     \en{\datedsubsection{University of Maryland}{Aug. 2021 -- Dec. 2021}}
-    \zh{\datedsubsection{é©¬é‡Œå…°å¤§å­¦}{2021å¹´8æœˆ -- 2021å¹´12æœˆ}}
+    \zh{\datedsubsection{ÂíÀïÀ¼´óÑ§}{2021Äê8ÔÂ -- 2021Äê12ÔÂ}}
     \begin{ind}
         \en{\role{Teaching Assistant}{CMSC 436 - Programming Handheld Systems}}
-        \zh{\role{åŠ©æ•™}{CMSC 436 - æ‰‹æŒè®¾å¤‡ç¼–ç¨‹}}
+        \zh{\role{Öú½Ì}{CMSC 436 - ÊÖ³ÖÉè±¸±à³Ì}}
     \end{ind}
     \en{
         \begin{jobitemize}
@@ -65,17 +65,17 @@
     }
     \zh{
         \begin{jobitemize}
-            \item åœ¨è®ºå›ä¸ºå­¦ç”Ÿè§£ç­”é—®é¢˜ã€‚
-            \item æ¯å‘¨Office Hourã€‚
-            \item ä¸ºé¡¹ç›®å’Œè€ƒè¯•æ‰“åˆ†ã€‚
+            \item ÔÚÂÛÌ³ÎªÑ§Éú½â´ğÎÊÌâ¡£
+            \item Ã¿ÖÜOffice Hour¡£
+            \item ÎªÏîÄ¿ºÍ¿¼ÊÔ´ò·Ö¡£
         \end{jobitemize}
     }
 
     \en{\datedsubsection{ACM Research (Shanghai), Inc.}{Feb. 2021 -- Mar. 2021}}
-    \zh{\datedsubsection{ç››ç¾åŠå¯¼ä½“è®¾å¤‡ï¼ˆä¸Šæµ·ï¼‰è‚¡ä»½æœ‰é™å…¬å¸}{2021å¹´2æœˆ -- 2021å¹´3æœˆ}}
+    \zh{\datedsubsection{Ê¢ÃÀ°ëµ¼ÌåÉè±¸£¨ÉÏº££©¹É·İÓĞÏŞ¹«Ë¾}{2021Äê2ÔÂ -- 2021Äê3ÔÂ}}
     \begin{ind}
         \en{\role{Intern}{Mechanical Engineering Department}}
-        \zh{\role{æœºæ¢°éƒ¨é—¨å®ä¹ ç”Ÿ}}
+        \zh{\role{»úĞµ²¿ÃÅÊµÏ°Éú}}
     \end{ind}
     \en{
         \begin{jobitemize}
@@ -85,16 +85,16 @@
     }
     \zh{
         \begin{jobitemize}
-            \item ç”¨Solidworksåˆ¶ä½œ3dç¡¬ä»¶æ¨¡å‹ã€‚
-            \item åˆ›å»ºäº†è‡ªåŠ¨å½’æ¡£ç³»ç»Ÿè¿½è¸ªå½’æ¡£æ ‡å‡†ä»¶çš„Solidworkså›¾çº¸ã€‚
+            \item ÓÃSolidworksÖÆ×÷3dÓ²¼şÄ£ĞÍ¡£
+            \item ´´½¨ÁË×Ô¶¯¹éµµÏµÍ³×·×Ù¹éµµ±ê×¼¼şµÄSolidworksÍ¼Ö½¡£
         \end{jobitemize}
     }
 
     \en{\datedsubsection{SAIC Motor Passenger Vehicle Company}{Jul. 2020 -- Oct. 2020}}
-    \zh{\datedsubsection{ä¸Šæ±½é›†å›¢}{2020å¹´7æœˆ -- 2020å¹´10æœˆ}}
+    \zh{\datedsubsection{ÉÏÆû¼¯ÍÅ}{2020Äê7ÔÂ -- 2020Äê10ÔÂ}}
     \begin{ind}
         \en{\role{Intern}{Software Development Division}}
-        \zh{\role{è½¯ä»¶å®ä¹ ç”Ÿ}}
+        \zh{\role{Èí¼şÊµÏ°Éú}}
     \end{ind}
     \en{
         \begin{jobitemize}
@@ -103,14 +103,14 @@
             \item Implements software with AUTOSAR system.
         \end{jobitemize}
     }
-    \zh{è½¦è½½åµŒå…¥å¼ç³»ç»Ÿç ”å‘ï¼Œç†Ÿæ‚‰AUTOSARç³»ç»Ÿã€‚}
+    \zh{³µÔØÇ¶ÈëÊ½ÏµÍ³ÑĞ·¢£¬ÊìÏ¤AUTOSARÏµÍ³¡£}
 
 
     \en{\datedsubsection{Morgan Stanley Huaxin Securities Co., Ltd.}{Apr. 2020 -- Jul. 2020}}
-    \zh{\datedsubsection{æ‘©æ ¹å£«ä¸¹åˆ©}{2020å¹´4æœˆ -- 2020å¹´7æœˆ}}
+    \zh{\datedsubsection{Ä¦¸ùÊ¿µ¤Àû}{2020Äê4ÔÂ -- 2020Äê7ÔÂ}}
     \begin{ind}
         \en{\role{Intern}{Board of Directors Office}}
-        \zh{\role{å®ä¹ ç”Ÿ}{è‘£äº‹ä¼šåŠå…¬å®¤}}
+        \zh{\role{ÊµÏ°Éú}{¶­ÊÂ»á°ì¹«ÊÒ}}
     \end{ind}
     \en{
         \begin{jobitemize}
@@ -120,14 +120,14 @@
             \item Comprehends securities regulation set forth by CSRC.
         \end{jobitemize}
     }
-    \zh{å‚ä¸äº†æ‘©æ ¹å£«ä¸¹åˆ©å¯¹æ‘©æ ¹å£«ä¸¹åˆ©åé‘«è¯åˆ¸æœ‰é™è´£ä»»å…¬å¸çš„51\%è‚¡æƒçš„æ”¶è´­ã€‚å‚ä¸èµ·è‰ä¿®æ”¹äº†æ‘©æ ¹åé‘«çš„ã€Šå…¬å¸æ²»ç†åˆ¶åº¦ã€‹ç­‰ä¸€ç³»åˆ—çš„è§„ç« åˆ¶åº¦ã€‚
-    å¯¹å…¬å¸çš„æ²»ç†ä»¥åŠä¸­å›½è¯åˆ¸ç›‘ç£ç®¡ç†å§”å‘˜ä¼šçš„å¯¹è¡Œä¸šç›‘ç®¡ç›‘ç£å·¥ä½œæœ‰ç€è¾ƒä¸ºæ·±åˆ»çš„äº†è§£}
+    \zh{²ÎÓëÁËÄ¦¸ùÊ¿µ¤Àû¶ÔÄ¦¸ùÊ¿µ¤Àû»ªöÎÖ¤È¯ÓĞÏŞÔğÈÎ¹«Ë¾µÄ51\%¹ÉÈ¨µÄÊÕ¹º¡£²ÎÓëÆğ²İĞŞ¸ÄÁËÄ¦¸ù»ªöÎµÄ¡¶¹«Ë¾ÖÎÀíÖÆ¶È¡·µÈÒ»ÏµÁĞµÄ¹æÕÂÖÆ¶È¡£
+    ¶Ô¹«Ë¾µÄÖÎÀíÒÔ¼°ÖĞ¹úÖ¤È¯¼à¶½¹ÜÀíÎ¯Ô±»áµÄ¶ÔĞĞÒµ¼à¹Ü¼à¶½¹¤×÷ÓĞ×Å½ÏÎªÉî¿ÌµÄÁË½â}
 
     \en{\datedsubsection{University of Maryland}{Oct. 2019 -- Jul. 2020}}
-    \zh{\datedsubsection{ç¾å›½é©¬é‡Œå…°å¤§å­¦}{2019å¹´10æœˆ -- 2020å¹´7æœˆ}}
+    \zh{\datedsubsection{ÃÀ¹úÂíÀïÀ¼´óÑ§}{2019Äê10ÔÂ -- 2020Äê7ÔÂ}}
     \begin{ind}
         \en{\role{Student Driver}{Shuttle UM}}
-        \zh{\role{å­¦ç”Ÿå¸æœº}{}}
+        \zh{\role{Ñ§ÉúË¾»ú}{}}
     \end{ind}
     \en{
         \begin{jobitemize}
@@ -136,13 +136,13 @@
             \item Acquired the Commercial Drivers' License through rigorous training.
         \end{jobitemize}
     }
-    \zh{æˆ‘æ˜¯é©¬é‡Œå…°å¤§å­¦æ ¡è½¦çš„ä¸€åå¸æœºï¼Œç»è¿‡ä¸¥æ ¼çš„è®­ç»ƒï¼Œæˆ‘åœ¨è¯¾ä½™æ—¶é—´è€ƒåˆ°äº†å•†ç”¨Bçº§é©¾ç…§ã€‚è¿™ä»½å·¥ä½œä½“ç°äº†æˆ‘çš„å®ˆæ—¶çš„ä¸ªæ€§ä¸ä¸ºå…¬ä¼—æœåŠ¡çš„ç†æƒ³ã€‚}
+    \zh{ÎÒÊÇÂíÀïÀ¼´óÑ§Ğ£³µµÄÒ»ÃûË¾»ú£¬¾­¹ıÑÏ¸ñµÄÑµÁ·£¬ÎÒÔÚ¿ÎÓàÊ±¼ä¿¼µ½ÁËÉÌÓÃB¼¶¼İÕÕ¡£Õâ·İ¹¤×÷ÌåÏÖÁËÎÒµÄÊØÊ±µÄ¸öĞÔÓëÎª¹«ÖÚ·şÎñµÄÀíÏë¡£}
 
     \en{\datedsubsection{University of Maryland}{Sep. 2018 -- Dec. 2019}}
-    \zh{\datedsubsection{ç¾å›½é©¬é‡Œå…°å¤§å­¦}{2018å¹´9æœˆ -- 2019å¹´12æœˆ}}
+    \zh{\datedsubsection{ÃÀ¹úÂíÀïÀ¼´óÑ§}{2018Äê9ÔÂ -- 2019Äê12ÔÂ}}
     \begin{ind}
         \en{\role{Research Assistant}{Department of Human Development and Quantitative Methodology}}
-        \zh{\role{ç ”ç©¶åŠ©ç†}{}}
+        \zh{\role{ÑĞ¾¿ÖúÀí}{}}
     \end{ind}
     \en{
         \begin{jobitemize}
@@ -150,7 +150,7 @@
             \item Provides visual interpretation and analysis presentations.
         \end{jobitemize}
     }
-    \zh{ä¸ºè®¤çŸ¥åˆ†æå»ºæ¨¡è¿›è¡Œæ•°æ®è¾“å…¥ï¼Œæ–‡å­¦è¯„ä¼°ä¸æ•°æ®åˆ†æã€‚}
+    \zh{ÎªÈÏÖª·ÖÎö½¨Ä£½øĞĞÊı¾İÊäÈë£¬ÎÄÑ§ÆÀ¹ÀÓëÊı¾İ·ÖÎö¡£}
 
     \en{\datedsubsection{Rural Teacher Training}{Summer 2015 -- Summer 2018}}
     \begin{ind}
@@ -164,16 +164,16 @@
         \end{jobitemize}
     }
 
-    \section{\faCogs\ \en{Skills}\both{ }\zh{æŠ€èƒ½}}
+    \section{\faCogs\ \en{Skills}\both{ }\zh{¼¼ÄÜ}}
     \begin{myitemize}
-        \item \en{Languages}\both{ }\zh{è¯­è¨€}: \en{English - Proficient, Chinese - Native}
-        \item \en{Programming Languages}\both{ }\zh{ç¼–ç¨‹è¯­è¨€}: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL
-        \item \en{Platform}\both{ }\zh{å¹³å°}: Windows 10, Linux
-        \item \en{Others}\both{ }\zh{å…¶ä»–}: Bash, Javascript, HTML \& CSS
+        \item \en{Languages}\both{ }\zh{ÓïÑÔ}: \en{English - Proficient, Chinese - Native}
+        \item \en{Programming Languages}\both{ }\zh{±à³ÌÓïÑÔ}: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL
+        \item \en{Platform}\both{ }\zh{Æ½Ì¨}: Windows 10, Linux
+        \item \en{Others}\both{ }\zh{ÆäËû}: Bash, Javascript, HTML \& CSS
         \item \en{Class B Commercial Drivers' License}
     \end{myitemize}
 
-    \section{\faCertificate\ \en{Honors \& Certificates}\both{ }\zh{è£èª‰ä¸è¯ä¹¦}}
+    \section{\faCertificate\ \en{Honors \& Certificates}\both{ }\zh{ÈÙÓşÓëÖ¤Êé}}
     \begin{myitemize}
         \item Dean's List and Academic Honor in all semesters
         \item Office of Multi-Ethnic Student Education Academic Excellence Awards
