@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume}[Tony's Resume]
-\LoadClass[12pt]{article}
+\LoadClass[11pt]{article}
 
 \setlength{\parindent}{0pt}
 

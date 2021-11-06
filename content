@@ -14,28 +14,22 @@
     \begin{center}
         \textbf{For updated version of my resume, visit: \href{https://resume.tonychen.page}{https://resume.tonychen.page}.}
     \end{center}
-    
-
-    % \vspace{.5cm}
-    % \en{\textbf{Available after middle Oct. 2020, preferably in the Software Engineering Department.}}
-    % \both{\newline}
-    % \zh{2020年10月中旬后可以参加实习，希望能进软件工程类的部门。}
-
-    % \section{\faAnchor\ \en{Career Objective}}
-    % \en{Employment as a Software Developer, using my programming and communication skills to code in a team environment.}
 
     \section{\faGraduationCap\ \en{Education}\both{ }\zh{教育经历}}
-    \en{\datedsubsection{University of Maryland}{Dec. 2021}}
-    \zh{\datedsubsection{美国马里兰大学}{2018年8月 -- 2021年12月}}
+    \en{\datedsubsection{University of Maryland}{May. 2022}}
+    \zh{\datedsubsection{美国马里兰大学}{2018年8月 -- 2022年5月}}
     \begin{ind}
         \en{\role{Bachelor of Science}{}}
         \zh{\role{科学学士学位}{}}
         \vspace{0.5ex}
         \en{Major in Computer Science. Minor in General Business.\\
-        Cumulative GPA: 3.90}\both{\newline}
+        Cumulative GPA: 3.88\\
+        Taking courses in Algorithm Design, Compiler, web and iOS Programming.}
+        \both{\newline}
         \zh{计算机科学专业，辅修商科。\\
         预计毕业时间：2021年12月\\
-        总计GPA：3.90}
+        总计GPA：3.88\\
+        课程：算法设计、编译器、iOS和网页编程。}
     \end{ind}
 
     \en{\datedsubsection{Shanghai Jiao Tong University}{Feb. 2021 - Jun. 2021}}
@@ -44,8 +38,10 @@
         \en{\role{Exchange Program}}
         \zh{\role{交换生}}
         \vspace{0.5ex}
-        \en{School of Electronic, Information and Electrical Engineering}
-        \zh{电子信息与电气工程学院}
+        \en{School of Electronic, Information and Electrical Engineering\\
+        Taken course in Database Design, Data Visualization, Cryptography and Network Security.}
+        \zh{电子信息与电气工程学院\\
+        课程：数据库设计、数据分析与可视化、密码学和网络安全。}
     \end{ind}
 
     \section{\faUsers\ \en{Experience}\both{ }\zh{工作与实习经历}}
@@ -59,8 +55,8 @@
     \en{
         \begin{jobitemize}
             \item Responses to students' questions on forum
-            \item Weekly office hours
-            \item Grades projects and tests
+            \item Holds office hours for 3 hours/week
+            \item Grades projects and exams
         \end{jobitemize}
     }
     \zh{
@@ -106,7 +102,7 @@
     \zh{车载嵌入式系统研发，熟悉AUTOSAR系统。}
 
 
-    \en{\datedsubsection{Morgan Stanley Huaxin Securities Co., Ltd.}{Apr. 2020 -- Jul. 2020}}
+    \en{\datedsubsection{Morgan Stanley}{Apr. 2020 -- Jul. 2020}}
     \zh{\datedsubsection{摩根士丹利}{2020年4月 -- 2020年7月}}
     \begin{ind}
         \en{\role{Intern}{Board of Directors Office}}
@@ -164,13 +160,68 @@
         \end{jobitemize}
     }
 
+    \section{\faDesktop\ \en{Projects}\both{ }\zh{项目经历}}
+    
+    \en{\subsection{Weather Pollution Data Visualization}}
+    \zh{\subsection{空气污染数据可视化}}
+    \en{
+        \begin{ind}
+            For \textbf{Data Visualization and Analysis} course taken in Shanghai Jiao Tong University.
+        \end{ind}
+    }
+    \zh{
+        \begin{ind}
+            上海交通大学\textbf{数据可视化和数据分析}课程大作业。
+        \end{ind}
+    }
+    \en{
+        \begin{jobitemize}
+            \item Based on past weather pollution data of China from 2013-2018
+            \item Frontend created using d3.js and AMap api
+            \item Backend created using express server and sqlite3
+        \end{jobitemize}
+    }
+    \zh{
+        \begin{jobitemize}
+            \item 数据基于中国2013年至2018年的大气污染数据
+            \item 前端由d3.js和高德地图api构成
+            \item 后端由express和sqlite3组成
+        \end{jobitemize}
+    }
+
+    \en{\subsection{Financial Record Keeping App}}
+    \zh{\subsection{个人记账App}}
+    \en{
+        \begin{ind} 
+            For \textbf{Programming Handheld System} course taken in University of Maryland.
+        \end{ind}
+    }
+    \zh{
+        \begin{ind}
+            马里兰大学\textbf{iOS编程}课程大作业。
+        \end{ind}
+    }
+    \en{
+        \begin{jobitemize}
+            \item Created using latest SwiftUI framework
+            \item A simplified bookkeeping app that stores everything locally
+            \item Designed with payment remainder and transaction tagging system
+        \end{jobitemize}
+    }
+    \zh{
+        \begin{jobitemize}
+            \item 基于最新的SwiftUI框架
+            \item 完全本地化的个人记账app
+            \item 具有账单体系与交易记录功能，可对交易进行拍照、加tag等进行分类
+        \end{jobitemize}
+    }
+
     \section{\faCogs\ \en{Skills}\both{ }\zh{技能}}
     \begin{myitemize}
         \item \en{Languages}\both{ }\zh{语言}: \en{English - Proficient, Chinese - Native}
-        \item \en{Programming Languages}\both{ }\zh{编程语言}: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL
-        \item \en{Platform}\both{ }\zh{平台}: Windows 10, Linux
+        \item \en{Programming Languages}\both{ }\zh{编程语言}: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL, Flask
+        \item \en{Platform}\both{ }\zh{平台}: Windows 10, Linux, MacOS X
         \item \en{Others}\both{ }\zh{其他}: Bash, Javascript, HTML \& CSS
-        \item \en{Class B Commercial Drivers' License}
     \end{myitemize}
 
     \section{\faCertificate\ \en{Honors \& Certificates}\both{ }\zh{荣誉与证书}}
