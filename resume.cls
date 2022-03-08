@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume}[Tony's Resume]
-\LoadClass[11pt]{article}
+\LoadClass[9pt]{article}
 
 \setlength{\parindent}{0pt}
 
@@ -16,10 +16,10 @@
 
 \RequirePackage[
 	letterpaper,
-	left=1in,
-	right=1in,
-	top=1in,
-	bottom=1in,
+	left=.5in,
+	right=.5in,
+	top=.5in,
+	bottom=.5in,
 	nohead
 ]{geometry}
 
