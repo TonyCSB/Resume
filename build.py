@@ -24,7 +24,7 @@ class Language(Enum):
 
 
 def readFile(filename):
-    with open(filename, mode="r") as f:
+    with open(filename, mode="r", encoding="utf8") as f:
         content = f.read()
     return content
 
