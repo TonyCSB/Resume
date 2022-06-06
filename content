@@ -1,6 +1,6 @@
 \begin{document}
     \en{\name{Sibei Chen}}
-    \zh{\name{³ÂË¼±´}}
+    \zh{\name{é™ˆæ€è´}}
 
     \basicInfo{
         \email{resume@tonychen.page} $\cdot$ 
@@ -14,180 +14,191 @@
         \textbf{For updated version of my resume, visit: \href{https://resume.tonychen.page}{https://resume.tonychen.page}.}
     \end{center}
 
-    \section{\faGraduationCap\ \en{Education}\both{ }\zh{½ÌÓı¾­Àú}}
+    \section{\faUsers\ \en{Experience}\both{ }\zh{å·¥ä½œç»å†}}
+    \en{\datedsubsection{Goldman Sachs}{Jul. 2022 - NOW}}
+    \zh{\datedsubsection{é«˜ç››}{2022å¹´7æœˆè‡³ä»Š}}
+    \begin{ind}
+        \en{\role{Full-stack Software Engineer}{Global Markets Division}}
+        \zh{\role{å…¨æ ˆè½¯ä»¶å·¥ç¨‹å¸ˆ}{å…¨çƒèµ„æœ¬éƒ¨}}
+        \vspace{.5ex}
+        \en{Corporate Action \& Booking Workflow in Synthetic Products Group}
+        \zh{Corporate Action \& Booking Workflow in Synthetic Products Group}
+    \end{ind}
+
+    \section{\faGraduationCap\ \en{Education}\both{ }\zh{æ•™è‚²ç»å†}}
     \en{\datedsubsection{University of Maryland}{May 2022}}
-    \zh{\datedsubsection{ÃÀ¹úÂíÀïÀ¼´óÑ§}{2018Äê8ÔÂ -- 2022Äê5ÔÂ}}
+    \zh{\datedsubsection{ç¾å›½é©¬é‡Œå…°å¤§å­¦}{2018å¹´8æœˆ -- 2022å¹´5æœˆ}}
     \begin{ind}
         \en{\role{Bachelor of Science}{}}
-        \zh{\role{¿ÆÑ§Ñ§Ê¿Ñ§Î»}{}}
+        \zh{\role{ç§‘å­¦å­¦å£«å­¦ä½}{}}
         \vspace{0.5ex}
         \en{Major in Computer Science. Minor in General Business.\\
         Cumulative GPA: 3.90}\both{\newline}
-        \zh{¼ÆËã»ú¿ÆÑ§×¨Òµ£¬¸¨ĞŞÉÌ¿Æ¡£\\
-        ÀÛ¼ÆGPA£º3.90}
+        \zh{è®¡ç®—æœºç§‘å­¦ä¸“ä¸šï¼Œè¾…ä¿®å•†ç§‘ã€‚\\
+        ç´¯è®¡GPAï¼š3.90}
     \end{ind}
 
     \en{\datedsubsection{Shanghai Jiao Tong University}{Feb. 2021 - Jun. 2021}}
-    \zh{\datedsubsection{ÉÏº£½»Í¨´óÑ§}{2021Äê2ÔÂ -- 2021Äê6ÔÂ}}
+    \zh{\datedsubsection{ä¸Šæµ·äº¤é€šå¤§å­¦}{2021å¹´2æœˆ -- 2021å¹´6æœˆ}}
     \begin{ind}
         \en{\role{Exchange Program}}
-        \zh{\role{½»»»Éú}}
+        \zh{\role{äº¤æ¢ç”Ÿ}}
         \vspace{0.5ex}
         \en{School of Electronic, Information and Electrical Engineering}
-        \zh{µç×ÓĞÅÏ¢ÓëµçÆø¹¤³ÌÑ§Ôº}
+        \zh{ç”µå­ä¿¡æ¯ä¸ç”µæ°”å·¥ç¨‹å­¦é™¢}
     \end{ind}
 
-    \section{\faCogs\ \en{Skills}\both{ }\zh{¼¼ÄÜ}}
+    \section{\faCogs\ \en{Skills}\both{ }\zh{æŠ€èƒ½}}
     \begin{myitemize}
-        \item \en{Languages}\both{ }\zh{ÓïÑÔ}: \en{English - Proficient, Chinese - Native}\zh{ÖĞÎÄ - Ä¸Óï£¬Ó¢ÎÄ - ÊìÁ·}
-        \item \en{Programming Languages}\both{ }\zh{±à³ÌÓïÑÔ}: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL, Racket
-        \item \en{Platform}\both{ }\zh{Æ½Ì¨}: Windows 10, Linux (Ubuntu, Raspbian), Mac OS X
-        \item \en{Skills}\both{ }\zh{¼¼ÊõÕ»}: \en{Cryptography, Database Design, Data Visualization, Algorithm Design, Compiler, Computer Vision, iOS Programming, Network Security}\zh{¼ÓÃÜÑ§¡¢Êı¾İ¿âÉè¼Æ¡¢Êı¾İ¿ÉÊÓ»¯¡¢Ëã·¨Éè¼Æ¡¢±àÒëÆ÷¡¢¼ÆËã»úÊÓ¾õ¡¢iOS¿ª·¢¡¢ÍøÂç°²È«}
-        \item \en{Others}\both{ }\zh{ÆäËû}: Bash, Javascript, HTML \& CSS
+        \item \en{Languages}\both{ }\zh{è¯­è¨€}: \en{English - Proficient, Chinese - Native}\zh{ä¸­æ–‡ - æ¯è¯­ï¼Œè‹±æ–‡ - ç†Ÿç»ƒ}
+        \item \en{Programming Languages}\both{ }\zh{ç¼–ç¨‹è¯­è¨€}: Python, Java, \LaTeX, Swift, C, Ruby, Ocaml, SQL, Racket
+        \item \en{Platform}\both{ }\zh{å¹³å°}: Windows 10, Linux (Ubuntu, Raspbian), Mac OS X
+        \item \en{Skills}\both{ }\zh{æŠ€æœ¯æ ˆ}: \en{Cryptography, Database Design, Data Visualization, Algorithm Design, Compiler, Computer Vision, iOS Programming, Network Security}\zh{åŠ å¯†å­¦ã€æ•°æ®åº“è®¾è®¡ã€æ•°æ®å¯è§†åŒ–ã€ç®—æ³•è®¾è®¡ã€ç¼–è¯‘å™¨ã€è®¡ç®—æœºè§†è§‰ã€iOSå¼€å‘ã€ç½‘ç»œå®‰å…¨}
+        \item \en{Others}\both{ }\zh{å…¶ä»–}: Bash, Javascript, HTML \& CSS
     \end{myitemize}
 
-    \section{\faUsers\ \en{Experience}\both{ }\zh{¹¤×÷ÓëÊµÏ°¾­Àú}}
+    % \section{\faUsers\ \en{Experience}\both{ }\zh{å·¥ä½œä¸å®ä¹ ç»å†}}
 
-    \en{\datedsubsection{University of Maryland}{Aug. 2021 -- May. 2022}}
-    \zh{\datedsubsection{ÂíÀïÀ¼´óÑ§}{2021Äê8ÔÂ -- 2022Äê5ÔÂ}}
-    \begin{ind}
-        \en{\role{Teaching Assistant}{CMSC 335 - Web Application Development with JavaScript}}
-        \zh{\role{Öú½Ì}{CMSC 335 - JavaScriptÍøÕ¾¿ª·¢}}
-    \end{ind}
-    \begin{ind}
-        \en{\role{Teaching Assistant}{CMSC 436 - Programming Handheld Systems}}
-        \zh{\role{Öú½Ì}{CMSC 436 - ÊÖ³ÖÉè±¸±à³Ì}}
-    \end{ind}
-    \en{
-        \begin{jobitemize}
-            \item Responses to student questions via Piazza, holds weekly office hours, and implements/grades projects and tests
-            \item Enhanced my ability in communication and teaching
-        \end{jobitemize}
-    }
-    \zh{
-        \begin{jobitemize}
-            \item ÔÚÂÛÌ³ÎªÑ§Éú½â´ğÎÊÌâ¡¢Ã¿ÖÜOffice HourÒÔ¼°ÎªÏîÄ¿ºÍ¿¼ÊÔ´ò·Ö¡£
-            \item Ìá¸ßÁË¹µÍ¨Óë½ÌÓıµÄ¼¼ÇÉ
-        \end{jobitemize}
-    }
+    % \en{\datedsubsection{University of Maryland}{Aug. 2021 -- May. 2022}}
+    % \zh{\datedsubsection{é©¬é‡Œå…°å¤§å­¦}{2021å¹´8æœˆ -- 2022å¹´5æœˆ}}
+    % \begin{ind}
+    %     \en{\role{Teaching Assistant}{CMSC 335 - Web Application Development with JavaScript}}
+    %     \zh{\role{åŠ©æ•™}{CMSC 335 - JavaScriptç½‘ç«™å¼€å‘}}
+    % \end{ind}
+    % \begin{ind}
+    %     \en{\role{Teaching Assistant}{CMSC 436 - Programming Handheld Systems}}
+    %     \zh{\role{åŠ©æ•™}{CMSC 436 - æ‰‹æŒè®¾å¤‡ç¼–ç¨‹}}
+    % \end{ind}
+    % \en{
+    %     \begin{jobitemize}
+    %         \item Responses to student questions via Piazza, holds weekly office hours, and implements/grades projects and tests
+    %         \item Enhanced my ability in communication and teaching
+    %     \end{jobitemize}
+    % }
+    % \zh{
+    %     \begin{jobitemize}
+    %         \item åœ¨è®ºå›ä¸ºå­¦ç”Ÿè§£ç­”é—®é¢˜ã€æ¯å‘¨Office Hourä»¥åŠä¸ºé¡¹ç›®å’Œè€ƒè¯•æ‰“åˆ†ã€‚
+    %         \item æé«˜äº†æ²Ÿé€šä¸æ•™è‚²çš„æŠ€å·§
+    %     \end{jobitemize}
+    % }
 
-    \en{\datedsubsection{ACM Research (Shanghai), Inc.}{Feb. 2021 -- Mar. 2021}}
-    \zh{\datedsubsection{Ê¢ÃÀ°ëµ¼ÌåÉè±¸£¨ÉÏº££©¹É·İÓĞÏŞ¹«Ë¾}{2021Äê2ÔÂ -- 2021Äê3ÔÂ}}
-    \begin{ind}
-        \en{\role{Intern}{Mechanical Engineering Department}}
-        \zh{\role{»úĞµ²¿ÃÅÊµÏ°Éú}}
-    \end{ind}
-    \en{
-        \begin{jobitemize}
-            \item Used Solidworks to build 3-d parts.
-            \item Created an automatic archiving system to track and archive solidwork files of standard parts.
-        \end{jobitemize}
-    }
-    \zh{
-        \begin{jobitemize}
-            \item ÓÃSolidworksÖÆ×÷3dÓ²¼şÄ£ĞÍ¡£
-            \item ´´½¨ÁË×Ô¶¯¹éµµÏµÍ³×·×Ù¹éµµ±ê×¼¼şµÄSolidworksÍ¼Ö½¡£
-        \end{jobitemize}
-    }
+    % \en{\datedsubsection{ACM Research (Shanghai), Inc.}{Feb. 2021 -- Mar. 2021}}
+    % \zh{\datedsubsection{ç››ç¾åŠå¯¼ä½“è®¾å¤‡ï¼ˆä¸Šæµ·ï¼‰è‚¡ä»½æœ‰é™å…¬å¸}{2021å¹´2æœˆ -- 2021å¹´3æœˆ}}
+    % \begin{ind}
+    %     \en{\role{Intern}{Mechanical Engineering Department}}
+    %     \zh{\role{æœºæ¢°éƒ¨é—¨å®ä¹ ç”Ÿ}}
+    % \end{ind}
+    % \en{
+    %     \begin{jobitemize}
+    %         \item Used Solidworks to build 3-d parts.
+    %         \item Created an automatic archiving system to track and archive solidwork files of standard parts.
+    %     \end{jobitemize}
+    % }
+    % \zh{
+    %     \begin{jobitemize}
+    %         \item ç”¨Solidworksåˆ¶ä½œ3dç¡¬ä»¶æ¨¡å‹ã€‚
+    %         \item åˆ›å»ºäº†è‡ªåŠ¨å½’æ¡£ç³»ç»Ÿè¿½è¸ªå½’æ¡£æ ‡å‡†ä»¶çš„Solidworkså›¾çº¸ã€‚
+    %     \end{jobitemize}
+    % }
 
-    \en{\datedsubsection{SAIC Motor Passenger Vehicle Company}{Jul. 2020 -- Oct. 2020}}
-    \zh{\datedsubsection{ÉÏÆû¼¯ÍÅ}{2020Äê7ÔÂ -- 2020Äê10ÔÂ}}
-    \begin{ind}
-        \en{\role{Intern}{Software Development Division}}
-        \zh{\role{Èí¼şÊµÏ°Éú}}
-    \end{ind}
-    \en{
-        \begin{jobitemize}
-            \item Developes embedded system and computer vision system on passenger vehicles.
-            \item Works in a team consists of 5 members.
-            \item Implements software with AUTOSAR system.
-        \end{jobitemize}
-    }
-    \zh{
-        \begin{jobitemize}
-            \item ³µÔØÇ¶ÈëÊ½ÏµÍ³ÑĞ·¢£¬ÊìÏ¤AUTOSARÏµÍ³¡£
-        \end{jobitemize}}
+    % \en{\datedsubsection{SAIC Motor Passenger Vehicle Company}{Jul. 2020 -- Oct. 2020}}
+    % \zh{\datedsubsection{ä¸Šæ±½é›†å›¢}{2020å¹´7æœˆ -- 2020å¹´10æœˆ}}
+    % \begin{ind}
+    %     \en{\role{Intern}{Software Development Division}}
+    %     \zh{\role{è½¯ä»¶å®ä¹ ç”Ÿ}}
+    % \end{ind}
+    % \en{
+    %     \begin{jobitemize}
+    %         \item Developes embedded system and computer vision system on passenger vehicles.
+    %         \item Works in a team consists of 5 members.
+    %         \item Implements software with AUTOSAR system.
+    %     \end{jobitemize}
+    % }
+    % \zh{
+    %     \begin{jobitemize}
+    %         \item è½¦è½½åµŒå…¥å¼ç³»ç»Ÿç ”å‘ï¼Œç†Ÿæ‚‰AUTOSARç³»ç»Ÿã€‚
+    %     \end{jobitemize}}
 
 
-    \en{\datedsubsection{Morgan Stanley Huaxin Securities Co., Ltd.}{Apr. 2020 -- Jul. 2020}}
-    \zh{\datedsubsection{Ä¦¸ùÊ¿µ¤Àû}{2020Äê4ÔÂ -- 2020Äê7ÔÂ}}
-    \begin{ind}
-        \en{\role{Intern}{Board of Directors Office}}
-        \zh{\role{ÊµÏ°Éú}{¶­ÊÂ»á°ì¹«ÊÒ}}
-    \end{ind}
-    \en{
-        \begin{jobitemize}
-            \item Prepared for Company's majority shareholder equity transfer.
-            \item Modified its \textit{Corporate Governance Policy} and other internal guidelines.
-            \item Provided detailed information and presentations for regulatory administrations.
-            \item Comprehends securities regulation set forth by CSRC.
-        \end{jobitemize}
-    }
-    \zh{
-        \begin{jobitemize}
-            \item ²ÎÓëÁËÄ¦¸ùÊ¿µ¤Àû¶ÔÄ¦¸ùÊ¿µ¤Àû»ªöÎÖ¤È¯ÓĞÏŞÔğÈÎ¹«Ë¾µÄ51\%¹ÉÈ¨µÄÊÕ¹º
-            \item ²ÎÓëÆğ²İĞŞ¸ÄÁËÄ¦¸ù»ªöÎµÄ¡¶¹«Ë¾ÖÎÀíÖÆ¶È¡·µÈÒ»ÏµÁĞµÄ¹æÕÂÖÆ¶È
-            \item ¶Ô¹«Ë¾µÄÖÎÀíÒÔ¼°ÖĞ¹úÖ¤È¯¼à¶½¹ÜÀíÎ¯Ô±»áµÄ¶ÔĞĞÒµ¼à¹Ü¼à¶½¹¤×÷ÓĞ×Å½ÏÎªÉî¿ÌµÄÁË½â
-        \end{jobitemize}
-    }
+    % \en{\datedsubsection{Morgan Stanley Huaxin Securities Co., Ltd.}{Apr. 2020 -- Jul. 2020}}
+    % \zh{\datedsubsection{æ‘©æ ¹å£«ä¸¹åˆ©}{2020å¹´4æœˆ -- 2020å¹´7æœˆ}}
+    % \begin{ind}
+    %     \en{\role{Intern}{Board of Directors Office}}
+    %     \zh{\role{å®ä¹ ç”Ÿ}{è‘£äº‹ä¼šåŠå…¬å®¤}}
+    % \end{ind}
+    % \en{
+    %     \begin{jobitemize}
+    %         \item Prepared for Company's majority shareholder equity transfer.
+    %         \item Modified its \textit{Corporate Governance Policy} and other internal guidelines.
+    %         \item Provided detailed information and presentations for regulatory administrations.
+    %         \item Comprehends securities regulation set forth by CSRC.
+    %     \end{jobitemize}
+    % }
+    % \zh{
+    %     \begin{jobitemize}
+    %         \item å‚ä¸äº†æ‘©æ ¹å£«ä¸¹åˆ©å¯¹æ‘©æ ¹å£«ä¸¹åˆ©åé‘«è¯åˆ¸æœ‰é™è´£ä»»å…¬å¸çš„51\%è‚¡æƒçš„æ”¶è´­
+    %         \item å‚ä¸èµ·è‰ä¿®æ”¹äº†æ‘©æ ¹åé‘«çš„ã€Šå…¬å¸æ²»ç†åˆ¶åº¦ã€‹ç­‰ä¸€ç³»åˆ—çš„è§„ç« åˆ¶åº¦
+    %         \item å¯¹å…¬å¸çš„æ²»ç†ä»¥åŠä¸­å›½è¯åˆ¸ç›‘ç£ç®¡ç†å§”å‘˜ä¼šçš„å¯¹è¡Œä¸šç›‘ç®¡ç›‘ç£å·¥ä½œæœ‰ç€è¾ƒä¸ºæ·±åˆ»çš„äº†è§£
+    %     \end{jobitemize}
+    % }
 
-    \en{\datedsubsection{University of Maryland}{Oct. 2019 -- Jul. 2020}}
-    \zh{\datedsubsection{ÃÀ¹úÂíÀïÀ¼´óÑ§}{2019Äê10ÔÂ -- 2020Äê7ÔÂ}}
-    \begin{ind}
-        \en{\role{Student Driver}{Shuttle UM}}
-        \zh{\role{Ñ§ÉúË¾»ú}{}}
-    \end{ind}
-    \en{
-        \begin{jobitemize}
-            \item Drove shuttle buses and transit vans at the University.
-            \item Familiared with mechanical structures of automotives.
-            \item Acquired the Commercial Drivers' License through rigorous training.
-        \end{jobitemize}
-    }
-    \zh{
-        \begin{jobitemize}
-        \item ÂíÀïÀ¼´óÑ§Ğ£³µµÄÒ»ÃûË¾»ú£¬¾­¹ıÑÏ¸ñµÄÑµÁ·£¬ÔÚ¿ÎÓàÊ±¼ä¿¼µ½ÁËÉÌÓÃB¼¶¼İÕÕ
-        \item Õâ·İ¹¤×÷ÌåÏÖÁËÎÒµÄÊØÊ±µÄ¸öĞÔÓëÎª¹«ÖÚ·şÎñµÄÀíÏë¡£
-        \end{jobitemize}
-    }
+    % \en{\datedsubsection{University of Maryland}{Oct. 2019 -- Jul. 2020}}
+    % \zh{\datedsubsection{ç¾å›½é©¬é‡Œå…°å¤§å­¦}{2019å¹´10æœˆ -- 2020å¹´7æœˆ}}
+    % \begin{ind}
+    %     \en{\role{Student Driver}{Shuttle UM}}
+    %     \zh{\role{å­¦ç”Ÿå¸æœº}{}}
+    % \end{ind}
+    % \en{
+    %     \begin{jobitemize}
+    %         \item Drove shuttle buses and transit vans at the University.
+    %         \item Familiared with mechanical structures of automotives.
+    %         \item Acquired the Commercial Drivers' License through rigorous training.
+    %     \end{jobitemize}
+    % }
+    % \zh{
+    %     \begin{jobitemize}
+    %     \item é©¬é‡Œå…°å¤§å­¦æ ¡è½¦çš„ä¸€åå¸æœºï¼Œç»è¿‡ä¸¥æ ¼çš„è®­ç»ƒï¼Œåœ¨è¯¾ä½™æ—¶é—´è€ƒåˆ°äº†å•†ç”¨Bçº§é©¾ç…§
+    %     \item è¿™ä»½å·¥ä½œä½“ç°äº†æˆ‘çš„å®ˆæ—¶çš„ä¸ªæ€§ä¸ä¸ºå…¬ä¼—æœåŠ¡çš„ç†æƒ³ã€‚
+    %     \end{jobitemize}
+    % }
 
-    \en{\datedsubsection{University of Maryland}{Sep. 2018 -- Dec. 2019}}
-    \zh{\datedsubsection{ÃÀ¹úÂíÀïÀ¼´óÑ§}{2018Äê9ÔÂ -- 2019Äê12ÔÂ}}
-    \begin{ind}
-        \en{\role{Research Assistant}{Department of Human Development and Quantitative Methodology}}
-        \zh{\role{ÑĞ¾¿ÖúÀí}{}}
-    \end{ind}
-    \en{
-        \begin{jobitemize}
-            \item Data entry, literature review and basic data compiling for cognitive diagnosis modeling.
-            \item Provides visual interpretation and analysis presentations.
-        \end{jobitemize}
-    }
-    \zh{
-        \begin{jobitemize}
-            \item ÎªÈÏÖª·ÖÎö½¨Ä£½øĞĞÊı¾İÊäÈë£¬ÎÄÑ§ÆÀ¹ÀÓëÊı¾İ·ÖÎö
-        \end{jobitemize}
-    }
+    % \en{\datedsubsection{University of Maryland}{Sep. 2018 -- Dec. 2019}}
+    % \zh{\datedsubsection{ç¾å›½é©¬é‡Œå…°å¤§å­¦}{2018å¹´9æœˆ -- 2019å¹´12æœˆ}}
+    % \begin{ind}
+    %     \en{\role{Research Assistant}{Department of Human Development and Quantitative Methodology}}
+    %     \zh{\role{ç ”ç©¶åŠ©ç†}{}}
+    % \end{ind}
+    % \en{
+    %     \begin{jobitemize}
+    %         \item Data entry, literature review and basic data compiling for cognitive diagnosis modeling.
+    %         \item Provides visual interpretation and analysis presentations.
+    %     \end{jobitemize}
+    % }
+    % \zh{
+    %     \begin{jobitemize}
+    %         \item ä¸ºè®¤çŸ¥åˆ†æå»ºæ¨¡è¿›è¡Œæ•°æ®è¾“å…¥ï¼Œæ–‡å­¦è¯„ä¼°ä¸æ•°æ®åˆ†æ
+    %     \end{jobitemize}
+    % }
 
-    \en{\datedsubsection{Rural Teacher Training}{Summer 2015 -- Summer 2018}}
-    \begin{ind}
-        \en{\role{Volunteer}{Event Organizer}}
-    \end{ind}
-    \en{
-        \begin{jobitemize}
-            \item Organized multiple entertainment events with over 500 audiences.
-            \item Made arrangements with vendors and sponsors.
-            \item Hosted in one of these events.
-        \end{jobitemize}
-    }
+    % \en{\datedsubsection{Rural Teacher Training}{Summer 2015 -- Summer 2018}}
+    % \begin{ind}
+    %     \en{\role{Volunteer}{Event Organizer}}
+    % \end{ind}
+    % \en{
+    %     \begin{jobitemize}
+    %         \item Organized multiple entertainment events with over 500 audiences.
+    %         \item Made arrangements with vendors and sponsors.
+    %         \item Hosted in one of these events.
+    %     \end{jobitemize}
+    % }
 
-    \section{\faRocket\ \en{Personal Project}\both{ }\zh{¸öÈËÏîÄ¿}}
+    \section{\faRocket\ \en{Personal Project}\both{ }\zh{ä¸ªäººé¡¹ç›®}}
 
     \en{\datedsubsection{Weather Pollution Data Visualization}{}}
-    \zh{\datedsubsection{¿ÕÆøÎÛÈ¾Êı¾İ¿ÉÊÓ»¯}{}}
+    \zh{\datedsubsection{ç©ºæ°”æ±¡æŸ“æ•°æ®å¯è§†åŒ–}{}}
     \begin{ind}
         \en{\role{}{For \textbf{Data Visualization and Analysis} course taken in \textit{Shanghai Jiao Tong University}}}
-        \zh{\role{ÉÏº£½»Í¨´óÑ§Êı¾İ¿ÉÊÓ»¯ºÍÊı¾İ·ÖÎö¿Î³Ì×÷Òµ}{}}
+        \zh{\role{ä¸Šæµ·äº¤é€šå¤§å­¦æ•°æ®å¯è§†åŒ–å’Œæ•°æ®åˆ†æè¯¾ç¨‹ä½œä¸š}{}}
     \end{ind}
     \en{
         \begin{jobitemize}
@@ -197,16 +208,16 @@
     }
     \zh{
         \begin{jobitemize}
-            \item Ç°¶ËÓÉd3.jsºÍ¸ßµÂµØÍ¼api¹¹³É
-            \item ºó¶ËÓÉexpressºÍsqlite3×é³É
+            \item å‰ç«¯ç”±d3.jså’Œé«˜å¾·åœ°å›¾apiæ„æˆ
+            \item åç«¯ç”±expresså’Œsqlite3ç»„æˆ
         \end{jobitemize}
     }
 
     \en{\datedsubsection{Financial Record Keeping App}{}}
-    \zh{\datedsubsection{¸öÈË¼ÇÕËapp}{}}
+    \zh{\datedsubsection{ä¸ªäººè®°è´¦app}{}}
     \begin{ind}
         \en{\role{}{For \textbf{Programming Handheld System} course taken in \textit{University of Maryland}}}
-        \zh{\role{ÂíÀïÀ¼´óÑ§iOS±à³Ì¿Î³Ì×÷Òµ}{}}
+        \zh{\role{é©¬é‡Œå…°å¤§å­¦iOSç¼–ç¨‹è¯¾ç¨‹ä½œä¸š}{}}
     \end{ind}
     \en{
         \begin{jobitemize}
@@ -217,13 +228,13 @@
     }
     \zh{
         \begin{jobitemize}
-            \item »ùÓÚ×îĞÂµÄSwiftUI¿ò¼Ü
-            \item ÍêÈ«±¾µØ»¯µÄ¸öÈË¼ÇÕËapp
-            \item ¾ßÓĞÕËµ¥ÌåÏµÓë½»Ò×¼ÇÂ¼¹¦ÄÜ£¬¿É¶Ô½»Ò×½øĞĞÅÄÕÕ¡¢¼ÓtagµÈ½øĞĞ·ÖÀà
+            \item åŸºäºæœ€æ–°çš„SwiftUIæ¡†æ¶
+            \item å®Œå…¨æœ¬åœ°åŒ–çš„ä¸ªäººè®°è´¦app
+            \item å…·æœ‰è´¦å•ä½“ç³»ä¸äº¤æ˜“è®°å½•åŠŸèƒ½ï¼Œå¯å¯¹äº¤æ˜“è¿›è¡Œæ‹ç…§ã€åŠ tagç­‰è¿›è¡Œåˆ†ç±»
         \end{jobitemize}
     }
 
-    \section{\faCertificate\ \en{Honors \& Certificates}\both{ }\zh{ÈÙÓşÓëÖ¤Êé}}
+    \section{\faCertificate\ \en{Honors \& Certificates}\both{ }\zh{è£èª‰ä¸è¯ä¹¦}}
     \begin{myitemize}
         \item Dean's List and Academic Honor in all semesters
         \item Office of Multi-Ethnic Student Education Academic Excellence Awards
