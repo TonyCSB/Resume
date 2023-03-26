@@ -1,1 +1,0 @@
-copy *.pdf ..\TonyCSB.github.io\assets\pdf\ /Y
