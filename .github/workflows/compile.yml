@@ -17,7 +17,10 @@ jobs:
         with:
           python-version: "3.10"
       - name: Run python script
-        run: python build.py
+        run: |
+          pwd
+          ls -la
+          python build.py
       - name: Commit change
         run: |
           git config user.name github-actions
