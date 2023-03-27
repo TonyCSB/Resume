@@ -45,7 +45,7 @@ def generateContent(region, language):
     if language == Language.zh:
         content += CJK_FONT
 
-    content += readFile("header.tex")
+    content += readFile("header")
 
     content += "\\{0}true\n".format(region.name)
     content += "\\{0}true\n".format(language.name)
