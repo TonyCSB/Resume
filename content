@@ -15,14 +15,16 @@
     \end{center}
 
     \section{\faUsers\ \en{Experience}\both{ }\zh{工作经历}}
-    \en{\datedsubsection{Goldman Sachs}{Jul. 2022 - NOW}}
-    \zh{\datedsubsection{Goldman Sachs 高盛}{2022年7月 -- 至今}}
+    \en{\subsection{Goldman Sachs}}
+    \zh{\subsection{Goldman Sachs 高盛}}
     \begin{ind}
-        \en{\role{Analyst - Software Engineer}{Global Banking \& Markets}}
-        \zh{\role{Analyst - 软件工程师}{Global Banking \& Markets}}
+        \en{\datedrole{Associate - Software Engineer}{Global Banking \& Markets}{Jan. 2025 - Present}}
+        \zh{\datedrole{Associate - 软件工程师}{Global Banking \& Markets}{2025年1月 -- 至今}}
+        \en{\datedrole{Analyst - Software Engineer}{Global Banking \& Markets}{Jul. 2022 - Dec. 2024}}
+        \zh{\datedrole{Analyst - 软件工程师}{Global Banking \& Markets}{2022年7月 -- 2024年12月}}
         \vspace{.5ex}
         
-        Cross Product Engineering Division
+        Eq Cross Product Engineering team under Synthetic Product Group
     \end{ind}
 
     \section{\faGraduationCap\ \en{Education}\both{ }\zh{教育经历}}

@@ -65,6 +65,10 @@
   {\par \textit{#1} ~ #2 \par}
 }
 
+\newcommand{\datedrole}[3]{
+  {\par \textit{#1} ~ #2 \hfill #3 \par}
+}
+
 \newenvironment{jobitemize}{\vspace{-1.25\topsep}\begin{itemize}\setlength\itemsep{-0.25em}}{\end{itemize}}
 \newenvironment{myitemize}{\begin{itemize}\setlength\itemsep{0em}}{\end{itemize}}
 \newenvironment{ind}{\begin{adjustwidth}{4ex}{}}{\end{adjustwidth}}

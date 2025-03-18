@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+
+"""Build script for generating en/zh resume files"""
+
 import os
 from enum import Enum
 
@@ -14,54 +17,59 @@ CJK_FONT = r"""\usepackage{zh_CN-Adobefonts_external}
 
 
 class Region(Enum):
-    cn = 1
-    us = 2
+    """Enum for region, sets correct phone number for resume"""
+    CN = 1
+    US = 2
 
 
 class Language(Enum):
-    en = 1
-    zh = 2
+    """Enum for language, sets correct language for resume"""
+    EN = 1
+    ZH = 2
 
 
-def readFile(filename):
+def load_file(filename):
+    """Read file content"""
     with open(filename, mode="r", encoding="utf8") as f:
         content = f.read()
     return content
 
 
-def saveFile(content, filename):
+def save_file(content, filename):
+    """Save file content"""
     with open(filename, mode="wb") as f:
         f.write(content.encode("utf-8"))
 
 
-def generateContent(region, language):
-    if language == Language.zh:
+def generate_content(region, language):
+    """Generate content for resume"""
+    if language == Language.ZH:
         content = CJK_ENCODE
     else:
         content = ""
 
     content += DOCUMENT_CLASS
 
-    if language == Language.zh:
+    if language == Language.ZH:
         content += CJK_FONT
 
-    content += readFile("header")
+    content += load_file("header")
 
-    content += "\\{0}true\n".format(region.name)
-    content += "\\{0}true\n".format(language.name)
+    content += f"\\{region.name.lower()}true\n"
+    content += f"\\{language.name.lower()}true\n"
 
-    content += readFile("content")
+    content += load_file("content")
 
-    filename = "resume_{0}{1}.tex".format(language.name, region.name.upper())
-    saveFile(content, filename)
+    filename = f"resume_{language.name.lower()}{region.name.upper()}.tex"
+    save_file(content, filename)
 
-    if language == Language.zh:
-        os.system("xelatex {0}".format(filename))
+    if language == Language.ZH:
+        os.system(f"xelatex {filename}")
     else:
-        os.system("pdflatex {0}".format(filename))
+        os.system(f"pdflatex {filename}")
 
 
 if __name__ == "__main__":
     for r in Region:
         for lang in Language:
-            generateContent(r, lang)
+            generate_content(r, lang)
